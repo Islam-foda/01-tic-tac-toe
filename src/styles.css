@@ -76,7 +76,9 @@ body {
   content: '';
   display: table;
 }
-
+.winele{
+  background-color: rgb(223, 70, 70);
+}
 .status {
   margin-bottom: 10px;
 }
@@ -87,4 +89,19 @@ body {
 
 .game-info {
   margin-left: 20px;
+}
+
+.resetbtn{
+  width: 90px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-weight: bold;
+  transition: .3s ease;
+}
+
+.resetbtn:hover{
+  color: white;
+  background-color: rgb(70, 68, 68);
 }
